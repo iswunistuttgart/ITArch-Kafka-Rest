@@ -1,0 +1,9 @@
+version: '2'
+services:
+  restapi:
+    image: nalim2/cc-rest-api
+    build: .
+    hostname: restapi
+    container_name: restapi
+    ports:
+      - "8080:8080"
